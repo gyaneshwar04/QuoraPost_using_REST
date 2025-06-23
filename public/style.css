@@ -1,0 +1,148 @@
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Main Heading (h1) */
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+  margin: 30px 0;
+  color: #ffffff;
+  background: linear-gradient(to right, #7e7577, #344e03);
+  padding: 20px 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+/* Subtle hover effect */
+h1:hover {
+  transform: scale(1.02);
+}
+
+
+/* Page heading */
+h2 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #00000033;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #ffe28a;
+}
+
+/* Post ID */
+p {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #444;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+p:hover {
+  transform: scale(1.02);
+}
+
+/* Post Card */
+.post {
+  background: linear-gradient(to right, #ffffff, #ffe4e1);
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.post:hover {
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px);
+}
+
+/* Username style */
+.user {
+  font-size: 22px;
+  color: #b92b27;
+  margin-bottom: 15px;
+  transition: color 0.3s eas
+}
+/* Styling for all anchor tags */
+a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for links */
+a:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: style the "Add new Post" link differently
+a[href$="/new"] {
+  background: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+a[href$="/new"]:hover {
+  background: linear-gradient(to right, #0083b0, #00b4db);
+} */
+textarea {
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: vertical;
+  background-color: #fffaf9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #b92b27;
+  outline: none;
+  box-shadow: 0 0 5px rgba(185, 43, 39, 0.3);
+}
+button {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  transform: scale(1.03);
+}
